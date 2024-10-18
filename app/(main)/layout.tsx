@@ -1,5 +1,4 @@
 import { NavigationSidebar } from "@/components/navigation/navigation-sidebar";
-import { ModalProvider } from "@/components/providers/modal-provider";
 import React from "react";
 
 const MainLayout =  async ({

@@ -80,6 +80,7 @@ export const ChatItem = ({
     }
 
     useEffect(() => {
+        // @ts-ignore
         const handleKeyDown = (event: any) => {
             if (event.key === 'Escape' || event.keyCode === 27) {
                 setIsEditing(false);

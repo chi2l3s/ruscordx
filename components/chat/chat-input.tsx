@@ -20,6 +20,7 @@ import { useRouter } from 'next/navigation';
 
 interface ChatInputProps {
     apiUrl: string;
+    // @ts-ignore
     query: Record<string, any>;
     name: string;
     type: 'conversation' | 'channel';
