@@ -20,7 +20,7 @@ import { useRouter } from 'next/navigation';
 
 interface ChatInputProps {
     apiUrl: string;
-    // @ts-ignore
+    // eslint-disable-next-line no-explicit-any
     query: Record<string, any>;
     name: string;
     type: 'conversation' | 'channel';
