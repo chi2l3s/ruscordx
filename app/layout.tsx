@@ -7,7 +7,6 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ModalProvider } from "@/components/providers/modal-provider";
 import { SocketProvider } from "@/components/providers/socket-provider";
 import { QueryProvider } from "@/components/providers/query-provider";
-import { link } from "fs";
 
 const nunito = Nunito({ subsets: ['latin'] })
 
